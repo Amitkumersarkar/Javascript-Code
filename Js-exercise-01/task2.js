@@ -9,4 +9,4 @@ var English = 90;
 var totalMarks = Mathematics + Biology + Chemistry + Physics + English;
 var averageMarks = totalMarks / 5;
 console.log(totalMarks);
-console.log(averageMarks);
+console.log(averageMarks.toFixed(2));
